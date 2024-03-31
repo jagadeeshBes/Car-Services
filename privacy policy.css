@@ -1,0 +1,26 @@
+.Privacy{
+    height: auto;
+    
+    margin-top: 100px;
+}
+.big{
+    font-size: 40px;
+    font-weight: bolder;
+}
+p{
+    font-size:25px;
+}
+.toch button{
+    position: fixed;
+    right: 50px;
+    width: 300px;
+    bottom: 0px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 999;
+}
+.toch button:hover{
+    background-color: black;
+}

@@ -1,0 +1,7 @@
+.Privacy{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 50px;
+    gap: 20px;
+}

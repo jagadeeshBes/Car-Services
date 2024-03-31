@@ -1,0 +1,95 @@
+.pressure1{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+    
+    
+}
+div .p-img1{
+    width: 50%;
+    margin-left: 300px;
+   
+}
+div .p1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 50px;
+    gap: 10px;
+    font-size: 18px;
+    text-align:left;
+    margin-right: -200px;
+}
+div .p-img1 img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+.pressure2{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    
+    
+}
+div .p-img2{
+    width: 50%;
+    margin-left: 300px;
+   
+}
+div .p2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 50px;
+    gap: 10px;
+    font-size: 18px;
+    text-align:left;
+    margin-left: -200px;
+}
+div .p-img2 img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-left: -250px;
+}
+.pressure3{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    
+    
+}
+div .p-img3{
+    width: 50%;
+    margin-left: 300px;
+   
+}
+div .p3{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 50px;
+    gap: 10px;
+    font-size: 18px;
+    text-align:left;
+   
+}
+div .p-img3 img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-left: -200px;
+}

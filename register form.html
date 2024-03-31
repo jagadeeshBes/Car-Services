@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>regiter form</title>
+    <link rel="stylesheet" href="./regiter form.css">
+</head>
+<body>
+    <div class="reg">
+        <div class="c">
+          <img src="./asset/registre/bg car.jpeg" alt="">
+        </div>
+              <div class="form">
+                  
+                  <div class="text">
+                  <p class="contactus">Contact Us Today</p>
+                  <h3>For emergencies, call us on 9843829861.</h3>
+                  <h3>For all non-emergency tyre fitting, please fill out the contact form and we will get back to you shortly.</h3>
+                  </div>
+                  <form id="form" onsubmit="return validateInput()">
+                  <table >
+                      <tr>
+                          <td><span>Forename *</span><input type="text" placeholder="Enter Your Forename" class="forname"><span class="msg1"></span></td>
+                         <td><span>Surname *</span><input type="text" placeholder="Enter Your Surname "class="surename"><span class="msg2"></span></td>
+                      </tr>
+                      <tr>
+                          <td><span>Email *</span><input type="email" placeholder="Enter Your Email" class="email"><span class="msg3"></span></td>
+                          <td><span>Phone Number *</span><input type="text" placeholder="Enter Your Phone Number " class="phonenumber"><span class="msg4"></span></td>
+                      </tr>
+                      <tr rowspan="2">
+                          <td><span>Location (if known)</span><input type="text" placeholder="Enter Your Location" class="if"></td>
+                          <td><button onclick="">Next</button></td>
+                      </tr>
+                    </table>
+                </form>
+              </div>
+            </div>
+</body>
+<script src="./script.js"></script>
+</html>
